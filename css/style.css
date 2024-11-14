@@ -64,6 +64,13 @@ hr {
 	max-width: 1000px;
 }
 
+.main-module {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+
 .header {
 	background-color: #64bcda;
 	border-bottom: 8px solid #000000;
@@ -80,7 +87,7 @@ hr {
 
 .header_logo img {
 	width: 100%;
-	max-width: 420px;
+	max-width: 500px;
 }
 
 .header_pub-info {
@@ -152,7 +159,7 @@ hr {
 }
 
 .main-sidebar_byline .byline_date {
-	display: none;
+	display: block;
 }
 
 .main-sidebar_byline .byline_name {
@@ -171,7 +178,7 @@ hr {
 	}
 
 	.main-article {
-		width: 60%;
+		width: 50%;
 		border-radius: 0.6rem;
 		margin: 0;
 	}
